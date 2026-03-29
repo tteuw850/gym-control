@@ -1,0 +1,10 @@
+CREATE EXTENSION IF NOT EXISTS "pgcrypto";
+
+
+CREATE TABLE tb_admin (
+
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(30)NOT NULL,
+    password VARCHAR(50)NOT NULL,
+
+)

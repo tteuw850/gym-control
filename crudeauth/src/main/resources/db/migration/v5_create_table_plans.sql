@@ -1,0 +1,11 @@
+CREATE EXTESIONS IF NOT EXISTS "pgcrypto";
+
+CREATE TABLE tb_plans (
+
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(40)NOT NULL,
+    price VARCHAR(40)NOT NULL,
+    duracaoDias VARCHAR(40)NOT NULL
+
+
+)
